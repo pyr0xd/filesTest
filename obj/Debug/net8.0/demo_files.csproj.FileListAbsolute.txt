@@ -1,0 +1,15 @@
+E:\kod\demo_files\bin\Debug\net8.0\demo_files.exe
+E:\kod\demo_files\bin\Debug\net8.0\demo_files.deps.json
+E:\kod\demo_files\bin\Debug\net8.0\demo_files.runtimeconfig.json
+E:\kod\demo_files\bin\Debug\net8.0\demo_files.dll
+E:\kod\demo_files\bin\Debug\net8.0\demo_files.pdb
+E:\kod\demo_files\obj\Debug\net8.0\demo_files.GeneratedMSBuildEditorConfig.editorconfig
+E:\kod\demo_files\obj\Debug\net8.0\demo_files.AssemblyInfoInputs.cache
+E:\kod\demo_files\obj\Debug\net8.0\demo_files.AssemblyInfo.cs
+E:\kod\demo_files\obj\Debug\net8.0\demo_files.csproj.CoreCompileInputs.cache
+E:\kod\demo_files\obj\Debug\net8.0\demo_files.sourcelink.json
+E:\kod\demo_files\obj\Debug\net8.0\demo_files.dll
+E:\kod\demo_files\obj\Debug\net8.0\refint\demo_files.dll
+E:\kod\demo_files\obj\Debug\net8.0\demo_files.pdb
+E:\kod\demo_files\obj\Debug\net8.0\demo_files.genruntimeconfig.cache
+E:\kod\demo_files\obj\Debug\net8.0\ref\demo_files.dll
