@@ -1,3 +1,3 @@
 banana
-päroņ 2
-äpple
+äpple   
+päroņ 

@@ -2,7 +2,7 @@
 
 string horn = "./files/horn.txt";
 string data = "./files/data.txt";
-string mData = "./files/moredata.txt";
+string mData = "moredata.txt";
 void P(string input)
 {
     Console.WriteLine(input);
@@ -73,17 +73,40 @@ void P(string input)
 // Console.WriteLine(alltext);
 
 // File.AppendAllText(mData, " ");
-using (StreamWriter writer = new StreamWriter(mData))
+// using (StreamWriter writer = new StreamWriter(mData))
+// {
+//     writer.WriteLine("first");
+//     writer.WriteLine("second");
+//     writer.WriteLine("third");
+// }
+// string text = File.ReadAllText(mData);
+// P(text);
+
+// StreamReader reader = new StreamReader(mData);
+// string content = reader.ReadToEnd();
+// P(content);
+// reader.Close();
+
+string folder = "./files/";
+string fullPathHorn = Path.Combine(folder, mData);
+StreamReader reader = new StreamReader(fullPathHorn);
+// string text = File.ReadAllText(fullPathHorn);
+// P(text);
+// string texts = File.ReadAllText(data);
+// P(texts);
+
+
+
+string folde = Path.GetDirectoryName(fullPathHorn);
+
+if (Directory.Exists(folde))
 {
-    writer.WriteLine("first");
-    writer.WriteLine("second");
-    writer.WriteLine("third");
+    P($"folder does not exist.. creating {folde}");
+    Directory.CreateDirectory(folde);
 }
-string text = File.ReadAllText(mData);
-P(text);
+else
+{
+    P($"folder alradey exists");
 
-StreamReader reader = new StreamReader(mData);
-string content = reader.ReadToEnd();
-P(content);
-reader.Close();
-
+}
+File.WriteAllText(fullPathHorn, "yay existense");
